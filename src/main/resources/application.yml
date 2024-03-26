@@ -1,0 +1,9 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: project-client
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:test}
+  jpa:
+    open-in-viwer: true
